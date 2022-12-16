@@ -1,0 +1,43 @@
+
+
+.img-cart{
+   
+    cursor: pointer;
+}
+.img-cart{
+    transform: scale(1.2);
+    
+}
+.cars .card{
+    overflow: hidden;
+    transition: 1s all ease-in-out;
+}
+.cars .card:hover{
+transform: translateY(-10px);
+}
+
+.for_sale{
+    position: absolute;
+    left:10px;
+    top:10px;
+    padding: 5px 10px;
+background-color: #0000006e;
+color: white;
+transition: 1s all ease-in-out;
+}
+.cars .card:hover .for_sale{
+transform: rotate(360deg);
+}
+.price2{
+    position: absolute;
+    bottom: 10px;
+    right:10px;
+    padding:10px;
+    transition: 1s all ease-in-out;
+}
+.cars .card:hover .price2{
+    transform: rotate(360deg);
+    }
+    .btn-8 {
+width: 20px;
+    }

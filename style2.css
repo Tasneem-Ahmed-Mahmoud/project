@@ -1,0 +1,127 @@
+
+:root{
+    --white:#fff;
+    --black:#1c2b2d;
+    --light-blue:#005490;
+    --color-primary:#222831;
+    --color-sec:#db6400;
+    --color-grey:#eee;
+    --color-dark-grey:#222831;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+
+p{
+    font-size:1.6rem;
+    line-height: 1.5;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+padding: 0 20px;
+}
+
+header{
+    background-color: #eee;
+    padding: 1rem;
+    margin-bottom: 2rem;
+
+}
+
+header h1{
+font-size:3.5rem;
+    line-height:2;
+    color:var(--color-primary)
+}
+form input{
+    width: 30rem;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    font-size: 1.6rem;
+    border-radius: 5px;
+    border-bottom:2px solid var(--color-sec) ;
+
+}
+
+.btn{
+    margin-top: 1.5rem;
+    font-size: 1.4rem;
+    text-decoration: none;
+    color:#eee;
+    background-color: var(--color-sec);
+    padding: 7px;
+    border-radius: 5px;
+    margin-right: 1rem; 
+   
+    
+
+}
+.activer{
+    background-color: var(--color-primary);
+
+}
+#store-products{
+    display: grid;
+grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+column-gap: 3rem;
+row-gap: 3rem;
+
+
+}
+.store-product{
+    border: 1px solid #eee;
+    border-radius: 3px;
+    max-width: 25rem;
+    
+
+}
+.product-details{
+    text-align: center;
+    padding-bottom: 1rem;
+    background-color: #eee;
+}
+.product-details button{
+  background-color: var(--color-sec); 
+  color:#fff;
+  font-size: 1rem;
+  text-decoration: none; 
+  padding: 1rem 1rem ;
+  border-radius: 3px;
+  border:none;
+}
+.product-details button:hover{
+    background-color: var(--color-primary);
+}
+.product-details h2{
+    font-size:2rem;
+    font-weight: 500;
+    padding-top: 1rem;
+
+}
+.product-details p{
+    
+color: green;
+font-weight: 700;
+padding-bottom: 1rem;
+font-size: 1rem;
+
+}
+.product-details  span{
+    text-decoration: line-through;
+    color: red;
+    font-weight: normal;
+    margin-right: 1rem;
+
+}
+
+.slide-container{
+margin: 20px;
+}
